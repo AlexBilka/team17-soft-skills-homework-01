@@ -2,7 +2,7 @@ body {
     background-color: #FDFCEF;
     font-family: sans-serif;
     color: black;
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 700;
     margin: 0;
     padding: 0;
@@ -13,21 +13,32 @@ body {
     display: grid;
 }
 .logo {
-    background-color: rgb(92, 196, 23);
-    padding: 40px 100px;
+    background-color: rgb(180, 180, 180);
+    padding: 20px 40px;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 100px;
+    border-radius: 15px;
+    transition: all 0.25s ease;
+}
+.logo:hover {
+    background-color: rgb(92, 196, 23);
+}
+.logo:focus {
+    background-color: rgb(92, 196, 23);
 }
 .group {
-    background-color:rgb(243, 55, 96) ;
+    background-color:rgb(116, 116, 116);
     color: #ffffff;
-    padding: 40px 100px;
-    border-radius: 100px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    transition: all 0.25s ease;
+}
+.group:hover {
+    background-color: rgb(243, 55, 96);
 }
 h1 {
-    font-size: 42px;
-    padding: 0 100px 40px;
+    font-size: 32px;
+    padding: 0 40px 20px;
 }
 .credits {
     font-size: 15px;
